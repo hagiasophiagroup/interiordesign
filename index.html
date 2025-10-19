@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Hagia Sophia Design Studio</title>
+		<meta name="description" content="A clean starting point for the Hagia Sophia Design Studio website." />
+		<meta name="theme-color" content="#025959" />
+		<!-- Google Fonts: Quicksand -->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
+		<!-- Top bar with scrolling text -->
+		<div class="topbar" role="note" aria-label="Updates">
+			<div class="topbar__track">
+				<div class="topbar__row">
+					<span>7 years of interior design.</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Specialized in luxury residential interior projects.</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Successfully completed 84 projects across 6 cities.</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Currently working on 8 active projects.</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Phone: 0925 939093/0902 996633</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>WhatsApp: https://wa.me/+251925939093</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Telegram: https://t.me/hagiasophia_ds</span>
+					<span class="topbar__dot">&bull;</span>
+					<span>Email: hagiasophia.ds@gmail.com</span>
+				</div>
+			</div>
+		</div>
+				<!-- Modern minimalist navigation -->
+				<nav class="nav" role="navigation" aria-label="Primary">
+					<div class="container nav__inner">
+						<ul class="nav__links">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+		<!-- Hero section with background image -->
+		<section class="hero" aria-label="Featured">
+			<div class="hero__overlay"></div>
+			<div class="container hero__content">
+				<h1>Hagia Sophia Design Studio</h1>
+				<p class="lead">Luxury Residential Interior Design Crafted with Intention.</p>
+			</div>
+		</section>
+		<header class="header" role="banner">
+			<div class="container header__inner">
+				<a class="logo" href="#" aria-label="Hagia Sophia Design Studio home">Hagia Sophia</a>
+			</div>
+		</header>
+
+		<main id="main" class="main" role="main">
+			<section class="midbar" aria-label="Statement">
+				<div class="container midbar__inner">
+					<p class="midbar__text">Intention and stuff</p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer" role="contentinfo">
+			<div class="container">
+				<p>© <span id="year"></span> Hagia Sophia Design Studio</p>
+			</div>
+		</footer>
+
+		<script>
+			(function () {
+				var y = document.getElementById('year');
+				if (y) y.textContent = new Date().getFullYear();
+			})();
+		</script>
+	</body>
+	</html>
+
